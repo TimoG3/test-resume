@@ -1,0 +1,67 @@
+h1 {
+    font-family: monospace;
+    font-size: 50px;
+    text-shadow: 5px 3px 5px slateblue;
+    text-align: center;
+    background-color: rgba(204, 65, 77, 0.541);
+    border-style: outset;
+    border-color: rgb(13, 58, 143);
+    border-width: 5px;
+    border-radius: 10px;
+    padding-left: 5.5px;
+    padding-right: 5.5px;
+    margin-left: 50px;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 30px;
+    text-shadow: 5px 3px 5px slateblue;
+    width: max-content;
+    background-color: rgba(204, 65, 77, 0.541);
+    border-style: outset;
+    border-color: rgb(13, 58, 143);
+    border-width: 5px;
+    border-radius: 10px;
+    padding-left: 5.5px;
+    padding-right: 5.5px;
+    margin-left: 50px;
+    margin-bottom: -10px
+}
+
+h3 {
+    font-family: monospace;
+    background-color: rgba(204, 65, 77, 0.541);
+    border-style: outset;
+    border-color: rgb(13, 58, 143);
+    border-width: 5px;
+    border-radius: 10px;
+    padding-left: 5.5px;
+    padding-right: 5.5px;
+    margin-left: 50px;
+}
+
+p {
+    font-family: monospace;
+    font-size: larger;
+    background-color: rgba(204, 65, 77, 0.541);
+    border-style: outset;
+    border-color: rgb(13, 58, 143);
+    border-width: 5px;
+    border-radius: 10px;
+    padding-left: 5.5px;
+    padding-right: 5.5px;  
+}
+
+.container {
+    display: grid;
+    align-items: start;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+img {
+    margin-left: 200px;
+    max-width: 100%;
+    max-height:100%;
+}
